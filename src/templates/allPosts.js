@@ -57,6 +57,7 @@ page 2 or the previous page link*/
     </Container>
   )
 }
+
 export default allPosts
 export const pageQuery = graphql`
   query AllPostsQuery($skip: Int!, $limit: Int!) {
