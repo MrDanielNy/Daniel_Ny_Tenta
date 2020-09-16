@@ -1,7 +1,7 @@
 import React from 'react'
-import { ContainerWrapper } from '../elements/containerElements'
-import { Nav } from '../components/nav'
-import { Footer } from '../components/footer'
+import { ContainerWrapper } from '../elements'
+import { Nav } from '../components'
+import { Footer } from '../components'
 
 export const Container = ({children})=> {
     return (

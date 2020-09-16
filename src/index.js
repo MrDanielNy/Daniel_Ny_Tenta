@@ -1,6 +1,6 @@
 import React from 'react'
-import {Container} from '../components'
-import { FeatureImage } from './components/FeatureImage'
+import {Container, FeatureImage} from '../components'
+
 const IndexPage = () => {
 Return (
 <Container>
