@@ -29,6 +29,7 @@ const components = {
     if (props) {
       return <Code {...props} />
     }
+    
     // it's possible to have a pre without a code in it
     return <pre {...preProps} />
   },

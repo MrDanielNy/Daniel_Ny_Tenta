@@ -11,7 +11,7 @@ module.exports = {
     description: "En blog som är ett tentaprojekt",
     url: "https://???.netlify.app",
     image: "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
-    twitterUsername: "@rajahasware",
+    twitterUsername: "@bodanielny",
     author: "Daniel Ny",
   },
   plugins: [  
@@ -48,6 +48,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
+              quality: 90,
             },
           },
         ],
