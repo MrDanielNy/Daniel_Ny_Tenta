@@ -1,10 +1,6 @@
 import React from "react"
-import { createGlobalStyle, ThemeProvider } from "styled-components"
-import { MDXProvider } from "@mdx-js/react"
-import { preToCodeBlock } from "mdx-utils"
-import Theme from "./src/themes/theme"
-import { Table, Code } from "./src/components"
-import "./language-tabs.css"
+import Highlight, { defaultProps } from "prism-react-renderer"
+import theme from "prism-react-renderer/themes/vsDark"
 
 export const Code = ({ codeString, language, ...props }) => {
   return (
@@ -30,3 +26,4 @@ export const Code = ({ codeString, language, ...props }) => {
     </Highlight>
   )
 }
+
