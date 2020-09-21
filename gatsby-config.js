@@ -6,6 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Daniel Ny tenta-blog",
+    description: "En blog som är ett tentaprojekt",
+    url: "https://???.netlify.app",
+    image: "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
+    twitterUsername: "@rajahasware",
+    author: "Daniel Ny",
+  },
   plugins: [  
   { 
     resolve: 'gatsby-source-filesystem', 

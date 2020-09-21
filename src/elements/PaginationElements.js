@@ -24,13 +24,15 @@ export const PaginationWrapper = styled.div`
   }
 `
 export const PaginationElement = styled(props => <Link {...props} />)`
-  font-size: 0.875rem;
+  font-size: 2rem;
   line-height: 1.125rem;
   font-weight: 400;
   text-decoration: none;
   margin: 0 2rem;
+  
   &:hover,
   &:focus {
-    text-decoration: underline;
+    font-size: 2.5rem;
+    margin: 0 1.75rem;
   }
 `

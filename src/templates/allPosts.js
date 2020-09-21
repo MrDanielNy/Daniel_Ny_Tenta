@@ -6,6 +6,7 @@ import {
   ContentCard,
   FeatureImage,
   Pagination,
+  Seo,
 } from "../components"
 import { H1, P } from "../elements"
 /* pageContext is use to access the context created in
@@ -30,6 +31,7 @@ page 2 or the previous page link*/
   const posts = data.allMdx.edges
   return (
     <Container>
+      <Seo />
       <FeatureImage />
       <Content>
         <H1 textAlign='center' margin='0 0 1rem 0'>
@@ -38,6 +40,12 @@ page 2 or the previous page link*/
         <P color='dark2' textAlign='center'>
           Hubba hubba hubba. 
         </P>
+        <Pagination
+        isFirst={isFirst}
+        isLast={isLast}
+        prevPage={prevPage}
+        nextPage={nextPage}
+      />
         {posts.map((post) => (
           <ContentCard
             key={post.node.frontmatter.slug}
@@ -48,12 +56,7 @@ page 2 or the previous page link*/
           />
         ))}
       </Content>
-      <Pagination
-        isFirst={isFirst}
-        isLast={isLast}
-        prevPage={prevPage}
-        nextPage={nextPage}
-      />
+
     </Container>
   )
 }
