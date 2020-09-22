@@ -7,6 +7,7 @@ import {
   FeatureImage,
   Pagination,
   Seo,
+  Posts,
 } from "../components"
 import { H1 } from "../elements"
 /* pageContext is use to access the context created in
@@ -50,7 +51,7 @@ page 2 or the previous page link*/
         prevPage={prevPage}
         nextPage={nextPage}
       />
-      <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+      <Posts>
         {posts.map((post) => (
           <ContentCard
             key={post.node.frontmatter.slug}
@@ -60,7 +61,7 @@ page 2 or the previous page link*/
             slug={post.node.frontmatter.slug}
           />
         ))}
-      </div>
+      </Posts>
         
       </Content>
 

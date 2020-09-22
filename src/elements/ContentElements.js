@@ -11,9 +11,14 @@ export const ContentWrapper = styled.main`
 
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
+    padding: unset;
+    justify-content: center;
+    align-items: center;
   }
 
   @media ${props => props.theme.breakpoints.mobile} {
+    grid-column: 1 / 8;
+    grid-gap: 0;
     padding: ${props =>
       `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
   }
