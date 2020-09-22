@@ -1,34 +1,46 @@
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 
-export const NavWrapper = styled.nav`
+export const NavWrapper = styled.div`
+    width: 100%; 
     display: flex;
-    align-items: center;
     grid-column: 2 / span 12;
     grid-row: 1 / 1;
 
+    .logo {
+        img {
+            height: 80px;
+            margin-top: 10px;
+        }
+    } 
 
-img {
-    height: 80px;
-    margin-top: 10px;
-}
+    ul {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        flex-flow: row nowrap;
+        align-items: center; 
+        justify-content: flex-end;
 
-a {
-    color: ${props=>props.theme.colors.light1};
-    text-decoration: none;
-    font-size: ${props=>props.theme.spacings.medium};
-    margin-right: 2rem;
-}
+        a {
+            margin-right: ${props=>props.theme.spacings.medium};
+            font-size: ${props=>props.theme.spacings.medium};
+            color: ${props=>props.theme.colors.light1};
+            text-decoration: none;
+            &:focus,
+            &:hover {
+                border-bottom: 1px solid white;
+            }
+        }
+    }
 
-a:hover {
-    border-bottom: 1px solid white;
-}
+@media ${props=>props.theme.breakpoints.mobile} {
+    grid-column: 1 / span 6;
 
-a:last-of-type {
-    margin-right: 0px;
-}
-
-@media ${props=>props.theme.breakpoints.tablet} {
-    grid-column: 2 / span 6;
+    .logo {
+        img {
+            height: 80px;
+            margin-left: 20px;
+        }
+    } 
 }
 `

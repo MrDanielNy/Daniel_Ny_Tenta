@@ -8,4 +8,9 @@ export const CardWrapper = styled.div`
   align-items: center;
   background-color: ${props => props.theme.colors.light1};
   max-width: 14rem;
+
+  @media ${props => props.theme.breakpoints.mobile} {
+    margin-left: 1rem;
+    min-width: 90%;
+}
 `

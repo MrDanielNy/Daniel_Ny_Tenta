@@ -19,7 +19,9 @@ export const ContentWrapper = styled.main`
   @media ${props => props.theme.breakpoints.mobile} {
     grid-column: 1 / 8;
     grid-gap: 0;
-    padding: ${props =>
-      `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: unset;
   }
 `
