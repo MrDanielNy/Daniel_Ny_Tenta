@@ -36,7 +36,17 @@ module.exports = {
       path: `${__dirname}/src/images` 
     } 
   },
-  `gatsby-plugin-sharp`, 
+  {
+    resolve: `gatsby-plugin-sharp`,
+    options: {
+      base64Width: 20,
+      forceBase64Format: ``, // valid formats: png,jpg,webp
+      useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+      stripMetadata: true,
+      defaultQuality: 90,
+      quality: 90,
+    },
+  }, 
   `gatsby-transformer-sharp`,
   `gatsby-plugin-styled-components`,
     {
