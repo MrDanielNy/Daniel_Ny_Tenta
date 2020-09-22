@@ -46,6 +46,7 @@ page 2 or the previous page link*/
         prevPage={prevPage}
         nextPage={nextPage}
       />
+      <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
         {posts.map((post) => (
           <ContentCard
             key={post.node.frontmatter.slug}
@@ -55,6 +56,8 @@ page 2 or the previous page link*/
             slug={post.node.frontmatter.slug}
           />
         ))}
+      </div>
+        
       </Content>
 
     </Container>

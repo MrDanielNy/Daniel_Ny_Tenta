@@ -7,6 +7,9 @@ export const PaginationWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+
+
   a:nth-child(1) {
     color: ${props =>
       props.isFirst ? props.theme.colors.dark3 : props.theme.colors.dark1};
@@ -19,6 +22,7 @@ export const PaginationWrapper = styled.div`
     pointer-events: ${props => (props.isLast ? "none" : "auto")};
     cursor: ${props => (props.isLast ? "default" : "pointer")};
   }
+
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
   }
@@ -29,6 +33,7 @@ export const PaginationElement = styled(props => <Link {...props} />)`
   font-weight: 400;
   text-decoration: none;
   margin: 0 2rem;
+  width: 100%;
   
   &:hover,
   &:focus {

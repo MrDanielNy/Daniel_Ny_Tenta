@@ -2,6 +2,7 @@ import React from "react"
 import { CardWrapper, P, H2 } from "../elements"
 import { Button } from "../components"
 
+/* Creates the post cards */ 
 export const ContentCard = ({ date, title, excerpt, slug }) => {
   return (
     <CardWrapper>
