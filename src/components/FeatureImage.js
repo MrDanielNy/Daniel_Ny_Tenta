@@ -1,11 +1,11 @@
 import React from 'react'
-import Img from "gatsby-image"
 import { useStaticQuery } from "gatsby"
 
 import {graphql} from 'gatsby';
+import BackgroundImage from 'gatsby-background-image';
 import { FeatureImageWrapper } from "../elements";
 
-export const FeatureImage = ({ fixed }) => {
+export const FeatureImage = ({ fixed, children }) => {
     const data = useStaticQuery(graphql`
         query {
             imageSharp(fixed: {originalName:{ eq: "markus-spiske-code.jpg"}}) {
@@ -18,7 +18,7 @@ export const FeatureImage = ({ fixed }) => {
 
     return (
         <FeatureImageWrapper>
-            <Img fixed = {fixed ? fixed : data.imageSharp.fixed}
+            <BackgroundImage fixed = {fixed ? fixed : data.imageSharp.fixed}
             style={{
                 position: "absolute",
                 left: 0,
@@ -26,7 +26,9 @@ export const FeatureImage = ({ fixed }) => {
                 width: "100%",
                 height: "100%",
             }}
-            />
+            >
+                {children}
+            </BackgroundImage>
         </FeatureImageWrapper>
     )
 }

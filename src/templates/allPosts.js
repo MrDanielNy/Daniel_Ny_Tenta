@@ -8,7 +8,7 @@ import {
   Pagination,
   Seo,
 } from "../components"
-import { H1, P } from "../elements"
+import { H1 } from "../elements"
 /* pageContext is use to access the context created in
 the gatsby-node, and data is what we retriece from our graphQl query */
 const allPosts = ({ pageContext, data }) => {
@@ -32,14 +32,18 @@ page 2 or the previous page link*/
   return (
     <Container>
       <Seo />
-      <FeatureImage />
+      <FeatureImage>
+        <h1>
+          Daniel Ny
+        </h1>
+        <p>
+          &hearts;
+        </p>
+      </FeatureImage>
       <Content>
         <H1 textAlign='center' margin='0 0 1rem 0'>
-          Daniel Ny.
+          Blogposts
         </H1>
-        <P color='dark2' textAlign='center'>
-          Hubba hubba hubba. 
-        </P>
         <Pagination
         isFirst={isFirst}
         isLast={isLast}

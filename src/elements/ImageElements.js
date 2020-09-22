@@ -5,7 +5,17 @@ export const FeatureImageWrapper = styled.div`
     grid-row: 2 / 4;
     position: relative;
     overflow: hidden;
+    color: white;
+    font-size: 2rem;
 
+    h1 {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    p {
+        padding-left: 5%;
+    }
 
     @media ${props=>props.theme.breakpoints.tablet} {
         grid-column: 2 / span 6;
