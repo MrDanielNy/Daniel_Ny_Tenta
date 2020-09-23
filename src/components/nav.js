@@ -11,11 +11,12 @@ export const Nav = () => {
     }
   `)
 
-    return (
-      <NavWrapper>
-        <div className="logo">
-          <img src={data.logo.publicURL} alt="My Logo" />
-        </div>
+  return (
+    <NavWrapper>
+      <div className="logo">
+        <img src={data.logo.publicURL} alt="My Logo" />
+      </div>
+      <div className="menu">
         <ul>
           <li>
             <Link to="/about">
@@ -28,8 +29,10 @@ export const Nav = () => {
             </Link>
           </li>
         </ul>
-      </NavWrapper>
-    )
+      </div>
+
+    </NavWrapper>
+  )
 }
 
 /*

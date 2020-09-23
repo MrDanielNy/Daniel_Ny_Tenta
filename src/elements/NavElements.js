@@ -13,6 +13,11 @@ export const NavWrapper = styled.div`
         }
     } 
 
+    .menu {
+        display: flex;
+        width: 100%;
+    }
+
     ul {
         display: flex;
         width: 100%;
@@ -26,6 +31,7 @@ export const NavWrapper = styled.div`
             font-size: ${props=>props.theme.spacings.medium};
             color: ${props=>props.theme.colors.light1};
             text-decoration: none;
+
             &:focus,
             &:hover {
                 border-bottom: 1px solid white;
