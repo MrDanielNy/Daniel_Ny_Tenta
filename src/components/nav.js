@@ -16,29 +16,28 @@ export const Nav = () => {
       <div className="logo">
         <img src={data.logo.publicURL} alt="My Logo" />
       </div>
-      <div className="menu">
-        <MenuIcon>
-          <div></div>
-          <div></div>
-          <div></div>
-        </MenuIcon>
-        <MenuLinks>
-          Link!
-        </MenuLinks>
-        <ul>
-          <li>
-            <Link to="/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
+      <div className="menu-wrap">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger"><div></div></div>
+        <div className="menu">
+          <div>
+            <div>
+              <ul>
+                <li>
+                  <Link to="/about">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact">
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-
     </NavWrapper>
   )
 }
