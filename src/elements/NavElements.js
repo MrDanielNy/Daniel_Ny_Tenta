@@ -35,7 +35,7 @@ export const NavWrapper = styled.nav`
     }
 
     .menu-wrap {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 10px;
         z-index: 100;
