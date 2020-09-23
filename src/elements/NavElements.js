@@ -70,9 +70,9 @@ export const NavWrapper = styled.div`
     }
 
     .menu-wrap {
-        position: fixed;
+        position: absolute;
         top: 0;
-        right: 10px;
+        right: 0px;
         z-index: 100;
         color: white;
         font-size: 3rem;
@@ -163,7 +163,7 @@ export const NavWrapper = styled.div`
     .menu-wrap .menu {
         position: fixed;
         top: 0%;
-        right: 10px;
+        right: 0px;
         width: 100%;
         height: 100%;
         visibility: hidden;
