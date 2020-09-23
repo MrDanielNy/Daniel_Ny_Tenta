@@ -10,7 +10,7 @@ export const ContentWrapper = styled.main`
   z-index: 10;
 
   @media ${props => props.theme.breakpoints.tablet} {
-    grid-column: 2 / span 6;
+    grid-column: 3 / span 8;
     padding: unset;
     justify-content: center;
     align-items: center;

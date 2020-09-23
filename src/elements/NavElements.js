@@ -55,8 +55,7 @@ export const NavWrapper = styled.nav`
     .toggler {
         display: none;
     }
-
-
+    
 @media ${props => props.theme.breakpoints.mobile} {
     grid-column: 1 / span 6;
 

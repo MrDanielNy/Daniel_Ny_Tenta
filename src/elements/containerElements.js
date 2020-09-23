@@ -9,7 +9,7 @@ export const ContainerWrapper = styled.div`
     background-color: ${props => props.theme.colors.dark1};
 
 @media ${props => props.theme.breakpoints.tablet} {
-    grid-template-columns: 2rem repeat(6, 1fr) 2rem;
+    grid-template-columns: 1rem repeat(12, minmax(auto, auto)) 1rem;
     grid-gap: 0 1rem;}
 @media ${props => props.theme.breakpoints.mobile} {
     grid-template-columns: repeat(6, 1fr);
