@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NavWrapper = styled.div`
+export const NavWrapper = styled.nav`
     width: 100%; 
     display: flex;
     grid-column: 2 / span 12;
