@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/mdx": "^1.6.18",
     "@mdx-js/react": "^1.6.16",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.54",

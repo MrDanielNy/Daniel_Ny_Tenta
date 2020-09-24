@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Daniel Ny tenta-blog",
     description: "En blog som är ett tentaprojekt",
-    url: "https://???.netlify.app",
+    url: "https://mrdny.netlify.app",
     image: "https://frontend-magic.netlify.app/static/142900cccf67f74f52182a3914449904/37155/hero-img.png",
     twitterUsername: "@bodanielny",
     author: "Daniel Ny",
@@ -76,5 +76,6 @@ module.exports = {
       options: { // Add any options here
       },
     },
+    'gatsby-background-image',
   ],
 }

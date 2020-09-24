@@ -1,21 +1,18 @@
 import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { NavWrapper } from "../elements"
+import { useAvatarImage } from '../hooks/useAvatarImage'
 
 export const Nav = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      logo: file(relativePath: { eq: "daniel_ny_avatar.png" }) {
-        publicURL
-      }
-    }
-  `)
+  //Using a hook to access (logo) avatar image
+  const data = useAvatarImage();
 
   return (
     <NavWrapper>
+     { 
       <div className="logo">
-        <img src={data.logo.publicURL} alt="My Logo" />
-      </div>
+        <img src={ data.brand.publicURL } alt="My Logo" />
+      </div>}
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger"><div></div></div>
