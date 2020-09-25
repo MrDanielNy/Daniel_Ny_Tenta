@@ -60,7 +60,7 @@ I built this from the ground up using our other project as rolemodell so most of
 <!-- About this project end -->
 
 <!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" -->
-# Answer to the exam-question
+# 👨‍🔬 Answer to the exam-question
 
 In this text I will give my view on the assignment: "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser"
 
@@ -72,7 +72,14 @@ There are plenty of options to choose from when deciding what routes to take whe
 
 I'm going to focus on three options here. There are plenty of other options as well and neither of this must be the perfect match for your project.
 
+1. **Using HTML, CSS and vanilla javascript**
 
+This is the most basic way of doing it and means you will get very little for free. Going back to the 90:s and early 2000 this was the only way of doing it (although there was editors to help it still needed a lot of coding) and if you want full controll and do everything from scratch this is the only way.
 
+There are also libraries like Bootstrap to make things simpler when building a site without the more modern packages like react this also means that sites tend to be more similar in styling because a lot of sites get the same, prebuilt styling.
+
+2. **Using PUG/Sass**
+
+I must admit that of all of the options I write about here this is the one I'm the least experienced in. However, PUG is a smart and slim template-engine that lets you create html that is reusable. This in turn means that the code is less likely to get bugs and is easier to change and maintain. [Link: https://www.sitepoint.com/a-beginners-guide-to-pug/]
 
 <!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" end -->
