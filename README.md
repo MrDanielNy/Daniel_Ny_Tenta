@@ -10,7 +10,11 @@
 
 ## 🚀 How to use this project
 
-1.  **Clone the site.**
+1.  **Before using or editing this project you need a code editorn.**
+
+    You will need to install a code-editor. A popular one is VSCode that is free to use and works on both PC and Mac.
+
+2.  **Clone the site.**
 
     Either download as zip in the browser or use Git Clone
 
@@ -19,7 +23,7 @@
     git clone https://github.com/MrDanielNy/Daniel_Ny_Tenta.git
     ```
 
-1.  **Start developing.**
+3.  **Start developing.**
 
     Navigate into your new site’s directory and install all needed components and then start it up.
 
@@ -29,7 +33,7 @@
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+4.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -38,6 +42,7 @@
     Open the `Daniel_Ny_Tenta` directory in your code editor of choice and edit the files you need. For example in VSCode you can do this.
 
     ```shell
+    #This opens VSCode in the current directory
     code .
     ```
 
