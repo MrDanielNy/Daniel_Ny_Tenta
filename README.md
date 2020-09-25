@@ -106,7 +106,7 @@ You can of course make PUG and React/Gatsby look like the other but the differen
 3. **Speed of production**
 If you take the route of doing everything from scratch you have full control of everything and it's very easy to make changes when needed. When using something like Gatsby and finding a bug it might be quite a lot harder to fix things. However, considering how much you get for free when using i library like Gatsby and also React then there is a real timesaver and that time can be spent on either getting the site to look and feel even better or, if you are a company, make money faster. Reinventing the wheel everytime is rarely a good approach and neither is writing standard boilerplate over and over again. If that can be avoided it probarbly should be.
 
-# Final thoughts.
+## Final thoughts.
 Factoring in everything above as well as the experience gotten from this project I would say that React/Gatsby is probably the best way to go for a fast, scalable and good-looking site. The minor bad things that comes with letting go of the controll heavily overweights the positives and as React and Gatsby both have a very good community it also means it's easy to get help you get stuck
 
 
