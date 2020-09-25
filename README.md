@@ -57,6 +57,8 @@ I built this from the ground up using our other project as rolemodell so most of
 
 2. I've installed the plugin gatsby-background-image to be able to place text over images, namely my name and a 'tagline' over the feature-image on the front-page.
 
+3. I'm using one hook in a separate file to find the logo/avatar image in the navbar. It is however the same query that we used in our original code but moved.
+
 <!-- About this project end -->
 
 <!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" -->
