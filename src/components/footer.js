@@ -1,9 +1,12 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+//import { useStaticQuery, graphql } from 'gatsby';
 import { FooterElement, FooterSocialWrapper, FooterSocialIcons, P } from '../elements';
+import { useFooterImages } from '../hooks/useFooterImages';
 
 export const Footer = () => {
-    const data = useStaticQuery(graphql`
+    const data = useFooterImages();
+
+   /* const data = useStaticQuery(graphql`
         query {
             twitter: file(relativePath: { eq: "twitter.svg" }) {
                 publicURL
@@ -18,7 +21,7 @@ export const Footer = () => {
                 publicURL
             }
         }
-    `)
+    `)*/
 
     return (
         <FooterElement>
