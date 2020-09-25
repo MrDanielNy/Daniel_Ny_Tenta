@@ -10,7 +10,6 @@ export const PaginationWrapper = styled.div`
   justify-content: center;
   text-align: center;
 
-
   a:nth-child(1) {
     color: ${props =>
       props.isFirst ? props.theme.colors.dark3 : props.theme.colors.dark1};
@@ -38,7 +37,6 @@ export const PaginationElement = styled(props => <Link {...props} />)`
   
   &:hover,
   &:focus {
-    font-size: 2.5rem;
-    margin: 0 1.75rem;
+    transform: scale(1.75);
   }
 `
