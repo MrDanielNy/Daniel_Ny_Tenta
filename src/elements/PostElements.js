@@ -132,7 +132,8 @@ h1,
     grid-column: 2 / span 6;
   }
   @media ${props => props.theme.breakpoints.mobile} {
+    grid-column: 1 / 8;
     padding: ${props =>
-      `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+      `${props.theme.spacings.small} ${props.theme.spacings.small}`};
   }
 `
