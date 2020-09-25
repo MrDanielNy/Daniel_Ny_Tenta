@@ -8,7 +8,7 @@
   My project for the course "Webbapplikationer och mobil utveckling"
 </h1>
 
-## 🚀 How to use this project
+# 🚀 How to use this project
 
 1.  **Before using or editing this project you need a code editorn.**
 
@@ -49,7 +49,7 @@
 <!-- Instructions end -->
 
 <!-- About this project -->
-## 🧐 What's changed in the project from the one we built together?
+# 🧐 What's changed in the project from the one we built together?
 
 I built this from the ground up using our other project as rolemodell so most of it is the same although I've made changes to the layout and some to the styling. 
 
@@ -60,15 +60,15 @@ I built this from the ground up using our other project as rolemodell so most of
 <!-- About this project end -->
 
 <!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" -->
-## Answer to the exam-question
+# Answer to the exam-question
 
 In this text I will give my view on the assignment: "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser"
 
-# The what
+## The what
 
 There are plenty of options to choose from when deciding what routes to take when building a website. The first thing needed is to make a specifikation on what the site should contain and do. When you know what to build it's time to decide how.
 
-# The how
+## The how
 
 I'm going to focus on three options here. There are plenty of other options as well and neither of this must be the perfect match for your project.
 
