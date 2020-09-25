@@ -38,7 +38,7 @@ page 2 or the previous page link*/
           Daniel Ny
         </h1>
         <p>
-          &hearts;
+          Create the difference
         </p>
       </FeatureImage>
       <Content>

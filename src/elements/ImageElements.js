@@ -23,5 +23,9 @@ export const FeatureImageWrapper = styled.div`
 
     @media ${props=>props.theme.breakpoints.mobile} {
         grid-column: 1 / 8;
+
+        p {
+            font-size: 1.8rem;
+        }
     }
 `
