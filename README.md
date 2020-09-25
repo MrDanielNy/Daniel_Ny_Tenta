@@ -80,6 +80,34 @@ There are also libraries like Bootstrap to make things simpler when building a s
 
 2. **Using PUG/Sass**
 
-I must admit that of all of the options I write about here this is the one I'm the least experienced in. However, PUG is a smart and slim template-engine that lets you create html that is reusable. This in turn means that the code is less likely to get bugs and is easier to change and maintain. [Link: https://www.sitepoint.com/a-beginners-guide-to-pug/]
+I must admit that of all of the options I write about here this is the one I'm the least experienced in. However, PUG is a smart and slim template-engine that lets you create html that is reusable. This in turn means that the code is less likely to get bugs and is easier to change and maintain. 
+[Source: https://www.sitepoint.com/a-beginners-guide-to-pug/]
+
+Sass in turn extends CSS and lets you do more and better than regular CSS. Howeber it lets you use ordinary CSS as well and that means you can mix and match between the different stylings as you see fit. [Source: Our lecture].
+
+3. **Using React/Gatsby**
+
+Before this course I had tried React out during the summer to learn more so I did a very simple project. React was created to make it easier to make reusable and betterlooking frontend due to the fact that they uses components and together with the markup-language JSX it's very simple to create a site and it's elements and at the same time make it more secure. 
+[Source: https://reactjs.org/blog/2013/06/05/why-react.html] 
+
+Gatsby, in the other hand, is an extension over react that aims to take care of all the husle when creating a site. Or, as one of the founders puts it: 
+"...Gatsby adds all the surrounding pieces needed to make you instantly productive building websites. So a data layer to make it easy to pull in data from anywhere, a routing system so you can have pages, an optimized dev & production build setup, a ton of performance enhancements to speed the initial page load & while clicking around the site, and a rich set of APIs which almost 1,300 plugins have been built around." [Source: https://www.techrepublic.com/article/why-gatsbyjs-corporate-success-is-really-about-the-individual-developer-experience/]
+
+## The conclusion
+
+There is no straight-up answer to what to choose when creating a site because it depends heavily on what the site should do. However, if we concentrate on the site we're building right now all three options are valid. But, here are som considerations:
+
+1. **What do you already know**
+Do you have the time or need to learn something new? If you already know React then the combination with Gatsby seems like a easy choice and otherwise, if you do not want to learn React maybe a template engine like PUG might be the easier choice. However, if you see the site expanding and needing more functions then maybe it's better to start learing React directly.
+
+2. **What do you think is the best approach to creation**
+You can of course make PUG and React/Gatsby look like the other but the different approaches to how things are done make the difference when deciding what to use. And although React comes with bigger possibilities out of the box it might also seem a bit big at first sight. Also, Gatsby takes away a lot of the hurdles of React to make it really easy to get started quickly.
+
+3. **Speed of production**
+If you take the route of doing everything from scratch you have full control of everything and it's very easy to make changes when needed. When using something like Gatsby and finding a bug it might be quite a lot harder to fix things. However, considering how much you get for free when using i library like Gatsby and also React then there is a real timesaver and that time can be spent on either getting the site to look and feel even better or, if you are a company, make money faster. Reinventing the wheel everytime is rarely a good approach and neither is writing standard boilerplate over and over again. If that can be avoided it probarbly should be.
+
+# Final thoughts.
+Factoring in everything above as well as the experience gotten from this project I would say that React/Gatsby is probably the best way to go for a fast, scalable and good-looking site. The minor bad things that comes with letting go of the controll heavily overweights the positives and as React and Gatsby both have a very good community it also means it's easy to get help you get stuck
+
 
 <!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" end -->
