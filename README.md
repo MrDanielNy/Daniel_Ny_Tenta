@@ -17,7 +17,6 @@
     ```shell
     #This will download the site
     git clone https://github.com/MrDanielNy/Daniel_Ny_Tenta.git
-    git clone 
     ```
 
 1.  **Start developing.**
@@ -42,6 +41,21 @@
     code .
     ```
 
-## 🧐 What's inside?
-
 <!-- Instructions end -->
+
+<!-- About this project -->
+## 🧐 What's changed in the project from the one we built together?
+
+I built this from the ground up using our other project as rolemodell so most of it is the same although I've made changes to the layout and some to the styling. 
+
+1. The Navbar switches between a regular one and a "burger menu" when the screen-size gets to small. Most of it is done using css-styling in Nav.js.
+
+2. I've installed the plugin gatsby-background-image to be able to place text over images, namely my name and a 'tagline' over the feature-image on the front-page.
+
+<!-- About this project end -->
+
+<!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" -->
+## Answer to the exam-question
+
+
+<!-- "Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser" end -->
